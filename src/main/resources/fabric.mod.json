@@ -1,11 +1,11 @@
 {
   "schemaVersion": 1,
-  "id": "addon-template",
+  "id": "cwcrystaladdon",
   "version": "${version}",
   "name": "Addon Template",
-  "description": "An addon template for the Meteor addons.",
+  "description": "CwCrystal",
   "authors": [
-    "seasnail"
+    "Dinolog"
   ],
   "contact": {
     "repo": "https://github.com/MeteorDevelopment/meteor-addon-template"
@@ -14,11 +14,11 @@
   "environment": "client",
   "entrypoints": {
     "meteor": [
-      "com.example.addon.Addon"
+      "me.dino.cwaddon.CwAddon"
     ]
   },
   "mixins": [
-    "addon.mixins.json"
+    "cwcrystal.mixins.json"
   ],
   "custom": {
     "meteor-client:color": "225,25,25"
